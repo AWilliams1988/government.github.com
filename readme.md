@@ -11,7 +11,7 @@ Submit [issues](https://github.com/github/government.github.com/issues/new) and 
 ### Goals
 
 - Share stories of real world experiences using GitHub in open Government
-- Demystify open source terminology
+- Demystify open source TERMINOLOGY
 - Showcase the community using GitHub to promote connections and sharing between individuals and organizations.
 - Make getting started with GitHub easier
 
