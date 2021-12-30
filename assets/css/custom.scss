@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-  max-width: 280px;
+  max-width: 325px;
 }
 
 .fill-blue { fill: $blue; }
@@ -196,4 +196,8 @@ td.does-not-support { color: $red-500; }
       box-shadow: 0 0 0 3px rgba($green-500, .25);
     }
   }
+}
+
+.alt-h1 {
+  font-weight:100;
 }
