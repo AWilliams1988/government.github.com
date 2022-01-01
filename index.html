@@ -13,8 +13,10 @@ permalink: /
 
 <section class="container-lg p-responsive py-5 py-md-6 my-lg-6">
 
+  <div class="container-lg p-responsive py-md-6 ">
     <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="what-is-dockside">What is Dockside?</h2>
     <p class="alt-lead text-gray text-center col-md-10 mx-auto">Dockside is a browser-based containerised development environment (CIDE) — a software development tool that let dev teams code within development containers.</p>
+  </div>
 
   <div class="clearfix gutter-spacious">
     <div class="mb-3 mb-md-5 col-md-6 float-left">
@@ -124,26 +126,6 @@ permalink: /
       <a href="https://github.com/showcases" class="btn btn-outline">See more showcases &rarr;</a>
     </p>
 
-  </div>
-</section>
-
-<section class="">
-  <div class="container-lg p-responsive py-5 py-md-6 ">
-    <h2 class="alt-h2 text-center mb-3 mt-lg-6" id="join-the-revolution">Join the Revolution</h2>
-    <p class="alt-lead text-gray text-center col-md-10 mx-auto">Join the thousands of government organizations around the world who collaborate on code, data, policy, and more. See the rest of the <a href="/community">GitHub government community</a>.</p>
-  </div>
-  <div style="overflow: hidden;">
-    {% assign count = 0 %}
-    {% for group in site.data.governments %}
-      {% for org in group[1] %}
-        {% assign count = count | plus:1 %}
-      {% endfor %}
-    {% endfor %}
-    <div class="featured-orgs text-center p-2 m-2">
-      {% for org in site.featured_orgs %}
-      <a href="https://github.com/{{ org }}" class="animate-in">{% avatar user=org size=80 %}</a>
-      {% endfor %}
-    </div>
   </div>
 </section>
 
