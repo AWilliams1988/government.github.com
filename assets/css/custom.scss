@@ -207,3 +207,8 @@ td.does-not-support { color: $red-500; }
 .quote-source {
   margin:20px 0 0 0;
 }
+
+.code-snippet {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
