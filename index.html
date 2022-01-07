@@ -106,9 +106,13 @@ permalink: /
         1. If you have Docker running locally, install Dockside by running:
       </div>
       <div class="Box-header">
-        <h3 class="Box-title">
-          Code snippet here
-        </h3>
+        <code>mkdir -p ~/.dockside && \
+          docker run -it --name dockside \
+            -v ~/.dockside:/data \
+            -v /var/run/docker.sock:/var/run/docker.sock \
+            -p 443:443 -p 80:80 \
+            newsnowlabs/dockside --ssl-builtin
+        </code>
       </div>
       <div class="Box-body">
         2. Navigate to <a href="https://www.local.dockside.dev/" title="After installing Dockside, visit this URL in your browser" target="_blank">https://www.local.dockside.dev/</a></a> in your browser.
