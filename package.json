@@ -1,7 +1,7 @@
 {
   "name": "dockside.io",
   "version": "1.0.0",
-  "description": "![screenshot](assets/img/screenshot.png)",
+  "description": "Develop in containers using production environments.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
