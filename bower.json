@@ -1,13 +1,13 @@
 {
-  "name": "government.github.com",
+  "name": "dockside.io",
   "version": "0.0.1",
-  "homepage": "https://government.github.com/",
+  "homepage": "https://dockside.io",
   "authors": [
-    "GitHub, Inc."
+    "NewsNow Labs"
   ],
-  "description": "Gather, curate, and feature stories of public servants and civic hackers using GitHub as part of their open government innovations",
+  "description": "Develop in containers using production environments.",
   "main": "index.html",
-  "license": "MIT",
+  "license": "Apache",
   "dependencies": {
     "jquery": "~2.2",
     "anchor-js": "~3.1",
